@@ -1,0 +1,131 @@
+{
+    "input": {
+        "vnf-topology-information": {
+            "vnf-topology-identifier": {
+                "service-type": "5e2f80cd-312f-419d-92fe-85f8ef64f335",
+                "vnf-name": "vPacketGen-0606-1",
+                "vnf-type": "Vpacketgen..base_vpkg..module-0",
+                "generic-vnf-name": "vPacketGen-Vnf-0606-1",
+                "generic-vnf-type": "vPacketGen 0"
+            },
+            "vnf-assignments": {
+                "availability-zones": [],
+                "vnf-networks": [],
+                "vnf-vms": []
+            },
+      "vnf-parameters":
+      [
+{
+"vnf-parameter-name": "image_name",
+"vnf-parameter-value": "ubuntu-14-04-cloud-amd64"
+},
+{
+"vnf-parameter-name": "flavor_name",
+"vnf-parameter-value": "m1.medium"
+},
+{
+"vnf-parameter-name": "public_net_id",
+"vnf-parameter-value": "971040b2-7059-49dc-b220-4fab50cb2ad4"
+},
+{
+"vnf-parameter-name": "unprotected_private_net_id",
+"vnf-parameter-value": "zdfw1fwl01_unprotected"
+},
+{
+"vnf-parameter-name": "unprotected_private_subnet_id",
+"vnf-parameter-value": "zdfw1fwl01_unprotected_sub"
+},
+{
+"vnf-parameter-name": "onap_private_net_id",
+"vnf-parameter-value": "oam_network_erMV"
+},
+{
+"vnf-parameter-name": "onap_private_subnet_id",
+"vnf-parameter-value": "oam_network_erMV"
+},
+{
+"vnf-parameter-name": "unprotected_private_net_cidr",
+"vnf-parameter-value": "192.168.10.0/24"
+},
+{
+"vnf-parameter-name": "protected_private_net_cidr",
+"vnf-parameter-value": "192.168.20.0/24"
+},
+{
+"vnf-parameter-name": "onap_private_net_cidr",
+"vnf-parameter-value": "10.0.0.0/16"
+},
+{
+"vnf-parameter-name": "vfw_private_ip_0",
+"vnf-parameter-value": "192.168.10.100"
+},
+{
+"vnf-parameter-name": "vpg_private_ip_0",
+"vnf-parameter-value": "192.168.10.200"
+},
+{
+"vnf-parameter-name": "vpg_private_ip_1",
+"vnf-parameter-value": "10.0.60.2"
+},
+{
+"vnf-parameter-name": "vsn_private_ip_0",
+"vnf-parameter-value": "192.168.20.250"
+},
+{
+"vnf-parameter-name": "vpg_name_0",
+"vnf-parameter-value": "vPacketGen-0606-1"
+},
+{
+"vnf-parameter-name": "vnf_id",
+"vnf-parameter-value": "vPacketGen_demo_app"
+},
+{
+"vnf-parameter-name": "vf_module_id",
+"vnf-parameter-value": "vPacketGen"
+},
+{
+"vnf-parameter-name": "repo_url_blob",
+"vnf-parameter-value": "https://nexus.onap.org/content/sites/raw"
+},
+{
+"vnf-parameter-name": "repo_url_artifacts",
+"vnf-parameter-value": "https://nexus.onap.org/content/repositories/releases"
+},
+{
+"vnf-parameter-name": "demo_artifacts_version",
+"vnf-parameter-value": "1.2.1"
+},
+{
+"vnf-parameter-name": "install_script_version",
+"vnf-parameter-value": "1.2.1"
+},
+{
+"vnf-parameter-name": "key_name",
+"vnf-parameter-value": "vfw_key"
+},
+{
+"vnf-parameter-name": "pub_key",
+"vnf-parameter-value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQXYJYYi3/OUZXUiCYWdtc7K0m5C0dJKVxPG0eI8EWZrEHYdfYe6WoTSDJCww+1qlBSpA5ac/Ba4Wn9vh+lR1vtUKkyIC/nrYb90ReUd385Glkgzrfh5HdR5y5S2cL/Frh86lAn9r6b3iWTJD8wBwXFyoe1S2nMTOIuG4RPNvfmyCTYVh8XTCCE8HPvh3xv2r4egawG1P4Q4UDwk+hDBXThY2KS8M5/8EMyxHV0ImpLbpYCTBA6KYDIRtqmgS6iKyy8v2D1aSY5mc9J0T5t9S2Gv+VZQNWQDDKNFnxqYaAo1uEoq/i1q63XC5AD3ckXb2VT6dp23BQMdDfbHyUWfJN"
+},
+{
+"vnf-parameter-name": "cloud_env",
+"vnf-parameter-value": "openstack"
+}
+ 
+ 
+      ]
+       },
+        "request-information": {
+            "request-id": "robot12",
+            "order-version": "1",
+            "notification-url": "openecomp.org",
+            "order-number": "1",
+            "request-action": "PreloadVNFRequest"
+        },
+        "sdnc-request-header": {
+            "svc-request-id": "robot12",
+            "svc-notification-url": "http:\/\/openecomp.org:8080\/adapters\/rest\/SDNCNotify",
+            "svc-action": "reserve"
+        }
+    }   
+}
